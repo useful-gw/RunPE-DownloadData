@@ -1,6 +1,10 @@
 Imports System.Runtime.InteropServices
 Imports System.Text
 
+'#By Razor Developer
+'#https://github.com/razordeveloper
+'#Skype : loras.beas
+
 Public Class Razor
 
     Private Shared kernel32 As String = BytesToStr(New Byte() {107, 101, 114, 110, 101, 108, 51, 50})
