@@ -11,5 +11,4 @@ Convert and add the encrypted URL with BASE64. You can replace links with anothe
 # Contact
 
 Skype : loras.beas
-Telegram : @razordeveloper
 
